@@ -106,7 +106,7 @@ public class ArrayDeque<T>{
 
     /** Deletes item from front of the list and
      * returns deleted item. */
-    public T remvoeFirst() {
+    public T removeFirst() {
         if (isEmpty()){
             return null;
         }
@@ -164,8 +164,8 @@ public class ArrayDeque<T>{
  		A.addLast(35);
  		A.addLast(40);
  		A.printDeque();
- 		A.remvoeFirst();
- 		A.remvoeFirst();
+ 		A.removeFirst();
+ 		A.removeFirst();
  		A.removeLast();
  		A.removeLast();
  		A.removeLast();
